@@ -1,0 +1,39 @@
+{
+  "id": "autosneakattack",
+  "title": "Auto Sneak Attack",
+  "description": "A module that will automatically prompt rogues for sneak attack on attack hits.",
+  "version": "0.1.0",
+  "compatibility": {
+    "minimum": "10",
+    "verified": "12",
+    "maximum": "12.331"
+  },
+  "authors": [
+    {
+      "name": "HonkLord"
+    }
+  ],
+  "esmodules": ["scripts/autosneakattack.js"],
+  "styles": [],
+  "url": "https://github.com/HonkLord/autosneakattack",
+  "manifest": "https://github.com/HonkLord/autosneakattack/main/module.json",
+  "download": "https://github.com/HonkLord/autosneakattack/archive/v0.1.0.zip",
+  "relationships": {
+    "systems": [
+      {
+        "id": "dnd5e",
+        "type": "system",
+        "compatibility": {
+          "minimum": "2.1.0"
+        }
+      }
+    ],
+    "requires": [
+      {
+        "id": "midi-qol",
+        "type": "module",
+        "compatibility": {}
+      }
+    ]
+  }
+}
