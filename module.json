@@ -16,7 +16,7 @@
   "esmodules": ["scripts/autosneakattack.js"],
   "styles": [],
   "url": "https://github.com/HonkLord/autosneakattack",
-  "manifest": "https://github.com/HonkLord/autosneakattack/module.json",
+  "manifest": "https://raw.githubusercontent.com/HonkLord/autosneakattack/main/module.json",
   "download": "https://github.com/HonkLord/autosneakattack/archive/v0.1.0.zip",
   "relationships": {
     "systems": [
